@@ -1,0 +1,72 @@
+/* taskform.css */
+.task-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.task-form h2 {
+    margin-top: 0;
+    color: #333;
+    text-align: center;
+}
+
+.task-form form {
+    margin-top: 20px;
+}
+
+.task-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.task-form input[type="text"],
+.task-form textarea,
+.task-form input[type="datetime-local"],
+.task-form select {
+    width: calc(100% - 22px);
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.task-form input[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.task-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.invalid-feedback {
+    color: red;
+    margin-top: 5px;
+}
+
+.back-button {
+    background-color: #ddd;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.back-button:hover {
+    background-color: #ccc;
+}
